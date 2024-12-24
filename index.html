@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Gerüstbau</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <h1 class="logo">APEX Gerüstbau</h1>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Dienstleistungen</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">Über Uns</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Willkommen bei <span>APEX Gerüstbau</span></h1>
+            <p>Ihr zuverlässiger Partner für Gerüstlösungen in der Schweiz.</p>
+            <a href="#services" class="btn-primary">Mehr Erfahren</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Dienstleistungen</h2>
+        <div class="service-cards">
+            <div class="card">
+                <i class="fas fa-building"></i>
+                <h3>Gerüstbau</h3>
+                <p>Professionelle Gerüstlösungen für jedes Projekt.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tools"></i>
+                <h3>Montage & Demontage</h3>
+                <p>Sichere und effiziente Montagedienste.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-truck-loading"></i>
+                <h3>Vermietung</h3>
+                <p>Flexible und erschwingliche Mietoptionen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="./istockphoto-520285400-1024x1024.jpg"alt="Projekt 2"></div>
+            <div class="gallery-item"><img src="./scaffold-4928852_1280.jpg"alt="Projekt 3"></div>
+            <div class="gallery-item"><img src="./construction-site-silhouettes.jpg" alt="Projekt 4"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">Über Uns</h2>
+        <p>Apex Gerüstbau bietet hochwertige Gerüstlösungen, die Sicherheit und Effizienz gewährleisten.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Kontakt</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Ihr Name" required>
+            <input type="email" placeholder="Ihre E-Mail" required>
+            <textarea placeholder="Ihre Nachricht" required></textarea>
+            <button type="submit" class="btn-primary">Senden</button>
+        </form>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" class="icon facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="icon instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://tiktok.com" target="_blank" class="icon tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>© 2024 Apex Gerüstbau. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
